@@ -22,6 +22,18 @@ import androidx.compose.ui.unit.dp
 import com.example.componentfactory.components.utils.Style
 import com.example.componentfactory.ui.theme.ComponentFactoryTheme
 
+/**
+ *  By using, [FavouriteIcon()] composable we can draw Heart Icon
+ *
+ *  @param modifier we can provide size, padding etc
+ *  @param isSelected which is used to identify Icon State
+ *  @param style Two types of style you can apply from this two [Style.Fill], [Style.Stroke]. By default, [Style.Fill]
+ *  @param selectedColor Color for Active State
+ *  @param unSelectedColor Color for InActive State
+ *  @param shape We can change Card Shape
+ *
+ * */
+
 @ExperimentalMaterialApi
 @Composable
 fun FavouriteIcon(
